@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    }
+    .container {
+    text-align: center;
+    }
+    h1 {
+    color: black;
+    }
+    .jumbotron {
+    background-color: white;
+    }
+    .row:hover {
+    background-color: grey;
+    color: white;
+    }
+    .row {
+    font-size: 25px;
+    }
