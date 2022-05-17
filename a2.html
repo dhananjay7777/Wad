@@ -1,0 +1,26 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button onclick="ajax()">Click me</button> <!--creating button-->
+        <script>
+            function ajax()
+            {  
+                var obj=new XMLHttpRequest();
+
+                obj.onload=function()
+                {
+                    alert('data loaded')
+                    console.log(this.responseText);
+                }
+
+                obj.open('GET','https://jsonplaceholder.typicode.com',true);
+                obj.send();
+
+
+            }
+        </script>
+
+    </body>
+</html>
